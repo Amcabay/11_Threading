@@ -42,7 +42,7 @@ void PrintEven()
 			this_thread::sleep_for(chrono::milliseconds(2500));		
 		}
 	}
-	cout << "finished counting even number" << endl;
+	cout << "Genap Selesai" << endl;
 }
 
 /*		//Nyoba --salah
