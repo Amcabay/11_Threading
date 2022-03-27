@@ -62,15 +62,15 @@ void PrintEven()
 int main()
 {
 	// Memulai thread odd
-	thread thOdd(PrintOdd);
+	thread th1(PrintOdd);
 
 	// Memulai thread even
-	thread thEven(PrintEven);
+	thread th2(PrintEven);
 
 	// Menunggu thread odd untuk selesai
-	thOdd.join();				
+	th1.join();				
 	// Menunggu thread even untuk selesai
-	thEven.join();				
+	th2.join();				
 
 
 	return 0;
